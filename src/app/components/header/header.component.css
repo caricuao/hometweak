@@ -1,0 +1,19 @@
+.header {
+  /*height: 250px;*/
+  width: 100%;
+  position: fixed;
+  top: 0;
+  /*left: 150px;*/
+  background-color: #eff0ff; /* rgba(0,0,255,.1); */
+  z-index: 1;
+  
+}
+
+button {
+    border: none !important;
+}
+.rightSidenav_toggle {
+  width: 300px;
+  height: 50px;
+  background-color: #eee;
+}

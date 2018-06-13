@@ -1,0 +1,60 @@
+.landing-container {
+    /*position: relative;*/
+    /*background-color: green;*/
+    
+}
+
+.landing-card {
+    max-width: 400px;
+    background-color: #585858;   /* #243b0b; #21610b;  #5e610b; #585858; #3a2f0b; rgba(0,0,255,.1) */
+    margin-bottom: 15px;
+    transform-style:  preserve-3d;
+    transition: all 0.5s ease;
+}
+
+.landing-card-front {
+    position: absolute;
+    width: 100%; height: 100%;
+    backface-visibility: hidden;
+    background: #ffc728;
+    color: #333;
+    border: #333 solid 1px;;
+}
+
+.landing-card-back {
+    position: absolute;
+    width: 100%; height: 100%;
+    backface-visibility: hidden;
+    background: #0000ed;
+    color: #333;
+    transform: rotateY(180deg);
+    
+}
+
+.landing-card:hover {
+    transform: rotateY(180deg);
+}
+
+.landing-header-image {
+    /*height: 50px; width: 50px;*/
+    background-color: lavender;
+    color: tomato;
+    background-size: cover;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.img-cards {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.img-cards img {
+    height: 200px;
+    width: 200px;
+}
+
+
